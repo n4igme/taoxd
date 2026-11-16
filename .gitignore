@@ -36,3 +36,25 @@ Thumbs.db
 
 # Local notes
 scratch/
+
+# Compiled demo binaries (container build outputs leaking into the mount)
+ch13-hwmit/cet/shadow_stack_demo
+ch13-hwmit/cet/ibt_demo
+ch13-hwmit/cet/shstk_demo
+ch13-hwmit/cet/.gdb_history
+ch13-hwmit/pac/pac_demo
+ch13-hwmit/pac/pac_demo_static
+ch13-hwmit/mte/mte_overflow
+ch13-hwmit/mte/mte_overflow_static
+ch13-hwmit/mte/mte_static
+ch14-heap-internals/playground/playground
+ch14-heap-internals/safelink/safelink
+ch16-houses/vuln
+ch16-houses/botcake/vuln
+ch16-houses/**/libc.so.6
+ch16-houses/botcake/safe_linking.py
+ch23-sandbox/renderer
+ch23-sandbox/exploit
+ch23-sandbox/**/libc.so.6
+ch34-fullchain/target/notesd
+ch34-fullchain/exploit/target/
